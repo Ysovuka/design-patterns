@@ -91,6 +91,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.Behavioral.S
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.Behavioral.Strategy", "src\General Patterns\Behavioral Patterns\c-sharp\DesignPatterns.Behavioral.Strategy\DesignPatterns.Behavioral.Strategy.csproj", "{23AC4890-7D30-4284-899F-43710382B89F}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.Behavioral.TemplateMethod", "src\General Patterns\Behavioral Patterns\c-sharp\DesignPatterns.Behavioral.TemplateMethod\DesignPatterns.Behavioral.TemplateMethod.csproj", "{8B09EBC8-BD3E-49B7-9B39-C2983E690A09}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -153,6 +155,10 @@ Global
 		{23AC4890-7D30-4284-899F-43710382B89F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{23AC4890-7D30-4284-899F-43710382B89F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{23AC4890-7D30-4284-899F-43710382B89F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B09EBC8-BD3E-49B7-9B39-C2983E690A09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B09EBC8-BD3E-49B7-9B39-C2983E690A09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B09EBC8-BD3E-49B7-9B39-C2983E690A09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B09EBC8-BD3E-49B7-9B39-C2983E690A09}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -200,5 +206,6 @@ Global
 		{CB91EF80-FE03-44B2-B39B-DDB7A27936EA} = {919207B8-6057-448A-B36E-08551A3335D3}
 		{85FE272D-3F34-4558-A86D-4A4750ED2A0E} = {919207B8-6057-448A-B36E-08551A3335D3}
 		{23AC4890-7D30-4284-899F-43710382B89F} = {919207B8-6057-448A-B36E-08551A3335D3}
+		{8B09EBC8-BD3E-49B7-9B39-C2983E690A09} = {919207B8-6057-448A-B36E-08551A3335D3}
 	EndGlobalSection
 EndGlobal
