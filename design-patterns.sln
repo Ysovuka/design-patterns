@@ -153,6 +153,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.DomainLogic.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.ObjectRelationalBehavioral.IdentityMap", "src\Enterprise Patterns\Object-Relational Behavioral Patterns\c-sharp\DesignPatterns.ObjectRelationalBehavioral.IdentityMap\DesignPatterns.ObjectRelationalBehavioral.IdentityMap.csproj", "{D11BB77C-B110-4AE4-8DF9-A2BC33FECF79}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.ObjectRelationalBehavioral.LazyLoad", "src\Enterprise Patterns\Object-Relational Behavioral Patterns\c-sharp\DesignPatterns.ObjectRelationalBehavioral.LazyLoad\DesignPatterns.ObjectRelationalBehavioral.LazyLoad.csproj", "{7D28E37B-27BB-46A6-B432-E955A63D56EA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -339,6 +341,10 @@ Global
 		{D11BB77C-B110-4AE4-8DF9-A2BC33FECF79}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D11BB77C-B110-4AE4-8DF9-A2BC33FECF79}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D11BB77C-B110-4AE4-8DF9-A2BC33FECF79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D28E37B-27BB-46A6-B432-E955A63D56EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D28E37B-27BB-46A6-B432-E955A63D56EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D28E37B-27BB-46A6-B432-E955A63D56EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D28E37B-27BB-46A6-B432-E955A63D56EA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -417,5 +423,6 @@ Global
 		{A51FD33F-00D8-40C2-84D3-82374E4BED89} = {D445CD22-86AF-4564-816D-4B238FFC94C9}
 		{1C735FC5-BB22-4D8F-855E-85E36A00DAB5} = {D445CD22-86AF-4564-816D-4B238FFC94C9}
 		{D11BB77C-B110-4AE4-8DF9-A2BC33FECF79} = {555F7B1C-4A08-4364-8C0C-048867D447FD}
+		{7D28E37B-27BB-46A6-B432-E955A63D56EA} = {555F7B1C-4A08-4364-8C0C-048867D447FD}
 	EndGlobalSection
 EndGlobal
