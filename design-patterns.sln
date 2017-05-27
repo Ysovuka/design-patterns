@@ -117,6 +117,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.Base.Mapper"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.Base.Money", "src\Enterprise Patterns\Base Patterns\c-sharp\DesignPatterns.Base.Money\DesignPatterns.Base.Money.csproj", "{DBC80118-B3E1-468C-80C6-413F22DE4ECB}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.Base.Plugin", "src\Enterprise Patterns\Base Patterns\c-sharp\DesignPatterns.Base.Plugin\DesignPatterns.Base.Plugin.csproj", "{BEB74B44-CFD6-4F07-9160-7B4E94E69AEA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -231,6 +233,10 @@ Global
 		{DBC80118-B3E1-468C-80C6-413F22DE4ECB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DBC80118-B3E1-468C-80C6-413F22DE4ECB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DBC80118-B3E1-468C-80C6-413F22DE4ECB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEB74B44-CFD6-4F07-9160-7B4E94E69AEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEB74B44-CFD6-4F07-9160-7B4E94E69AEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEB74B44-CFD6-4F07-9160-7B4E94E69AEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEB74B44-CFD6-4F07-9160-7B4E94E69AEA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -291,5 +297,6 @@ Global
 		{433C2E23-4EE3-4F53-AE54-E70FBB071B24} = {BDD0E76B-5FA6-4707-8692-F7519CD8FFCC}
 		{DFFFFD3D-0FDB-4532-9596-71910C4060D2} = {BDD0E76B-5FA6-4707-8692-F7519CD8FFCC}
 		{DBC80118-B3E1-468C-80C6-413F22DE4ECB} = {BDD0E76B-5FA6-4707-8692-F7519CD8FFCC}
+		{BEB74B44-CFD6-4F07-9160-7B4E94E69AEA} = {BDD0E76B-5FA6-4707-8692-F7519CD8FFCC}
 	EndGlobalSection
 EndGlobal
