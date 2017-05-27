@@ -171,6 +171,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.ObjectRelati
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.ObjectRelationalStructural.EmbeddedValue", "src\Enterprise Patterns\Object-Relational Structural Patterns\c-sharp\DesignPatterns.ObjectRelationalStructural.EmbeddedValue\DesignPatterns.ObjectRelationalStructural.EmbeddedValue.csproj", "{185A4113-063A-474D-BA87-ADB9F1F4D31D}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.ObjectRelationalStructural.ForeignKeyMapping", "src\Enterprise Patterns\Object-Relational Structural Patterns\c-sharp\DesignPatterns.ObjectRelationalStructural.ForeignKeyMapping\DesignPatterns.ObjectRelationalStructural.ForeignKeyMapping.csproj", "{DB715DC0-5201-4C14-B4AE-E0AE612D72F9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -393,6 +395,10 @@ Global
 		{185A4113-063A-474D-BA87-ADB9F1F4D31D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{185A4113-063A-474D-BA87-ADB9F1F4D31D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{185A4113-063A-474D-BA87-ADB9F1F4D31D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB715DC0-5201-4C14-B4AE-E0AE612D72F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB715DC0-5201-4C14-B4AE-E0AE612D72F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB715DC0-5201-4C14-B4AE-E0AE612D72F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB715DC0-5201-4C14-B4AE-E0AE612D72F9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -480,5 +486,6 @@ Global
 		{0AD99048-2621-4616-A088-4CC2B0783583} = {8FAB84F7-3289-4D6A-8A28-F3B7FA59C1D5}
 		{F563EAB2-8BF9-421D-B33D-589EB872449C} = {8FAB84F7-3289-4D6A-8A28-F3B7FA59C1D5}
 		{185A4113-063A-474D-BA87-ADB9F1F4D31D} = {8FAB84F7-3289-4D6A-8A28-F3B7FA59C1D5}
+		{DB715DC0-5201-4C14-B4AE-E0AE612D72F9} = {8FAB84F7-3289-4D6A-8A28-F3B7FA59C1D5}
 	EndGlobalSection
 EndGlobal
