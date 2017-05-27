@@ -207,7 +207,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.WebPresentat
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.WebPresentation.TwoStepView", "src\Enterprise Patterns\Web Presentation Patterns\c-sharp\DesignPatterns.WebPresentation.TwoStepView\DesignPatterns.WebPresentation.TwoStepView.csproj", "{835D8108-3E81-4297-A8D2-DA34BA84D73C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.WebPresetation.ApplicationController", "src\Enterprise Patterns\Web Presentation Patterns\c-sharp\DesignPatterns.WebPresetation.ApplicationController\DesignPatterns.WebPresetation.ApplicationController.csproj", "{8D9BE7EA-244B-440D-8D56-300AC0A0580E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.WebPresentation.ApplicationController", "src\Enterprise Patterns\Web Presentation Patterns\c-sharp\DesignPatterns.WebPresetation.ApplicationController\DesignPatterns.WebPresentation.ApplicationController.csproj", "{8D9BE7EA-244B-440D-8D56-300AC0A0580E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
