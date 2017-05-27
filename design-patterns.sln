@@ -167,6 +167,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.ObjectRelati
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.ObjectRelationalStructural.ClassTableInheritance", "src\Enterprise Patterns\Object-Relational Structural Patterns\c-sharp\DesignPatterns.ObjectRelationalStructural.ClassTableInheritance\DesignPatterns.ObjectRelationalStructural.ClassTableInheritance.csproj", "{0AD99048-2621-4616-A088-4CC2B0783583}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.ObjectRelationalStructural.DependentMapping", "src\Enterprise Patterns\Object-Relational Structural Patterns\c-sharp\DesignPatterns.ObjectRelationalStructural.DependentMapping\DesignPatterns.ObjectRelationalStructural.DependentMapping.csproj", "{F563EAB2-8BF9-421D-B33D-589EB872449C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -381,6 +383,10 @@ Global
 		{0AD99048-2621-4616-A088-4CC2B0783583}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0AD99048-2621-4616-A088-4CC2B0783583}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0AD99048-2621-4616-A088-4CC2B0783583}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F563EAB2-8BF9-421D-B33D-589EB872449C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F563EAB2-8BF9-421D-B33D-589EB872449C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F563EAB2-8BF9-421D-B33D-589EB872449C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F563EAB2-8BF9-421D-B33D-589EB872449C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -466,5 +472,6 @@ Global
 		{FE16C1C8-0755-464B-9F7D-AAF5B74F5EDA} = {34FD41AE-6CCE-4949-AACB-AD23C2617705}
 		{2D1867C9-47C0-4168-AE36-36948633328A} = {8FAB84F7-3289-4D6A-8A28-F3B7FA59C1D5}
 		{0AD99048-2621-4616-A088-4CC2B0783583} = {8FAB84F7-3289-4D6A-8A28-F3B7FA59C1D5}
+		{F563EAB2-8BF9-421D-B33D-589EB872449C} = {8FAB84F7-3289-4D6A-8A28-F3B7FA59C1D5}
 	EndGlobalSection
 EndGlobal
