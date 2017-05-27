@@ -187,6 +187,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.OfflineConcu
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.OfflineConcurrency.OptimisticOfflineLock", "src\Enterprise Patterns\Offline Concurrency Patterns\c-sharp\DesignPatterns.OfflineConcurrency.OptimisticOfflineLock\DesignPatterns.OfflineConcurrency.OptimisticOfflineLock.csproj", "{22B63EDF-41C9-42AB-8FF3-57CB5F0F12E0}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.OfflineConcurrency.PessimisticOfflineLock", "src\Enterprise Patterns\Offline Concurrency Patterns\c-sharp\DesignPatterns.OfflineConcurrency.PessimisticOfflineLock\DesignPatterns.OfflineConcurrency.PessimisticOfflineLock.csproj", "{28E8BB78-9DDE-4591-B1C9-A3FD6DB67A6C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -441,6 +443,10 @@ Global
 		{22B63EDF-41C9-42AB-8FF3-57CB5F0F12E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{22B63EDF-41C9-42AB-8FF3-57CB5F0F12E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{22B63EDF-41C9-42AB-8FF3-57CB5F0F12E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28E8BB78-9DDE-4591-B1C9-A3FD6DB67A6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28E8BB78-9DDE-4591-B1C9-A3FD6DB67A6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28E8BB78-9DDE-4591-B1C9-A3FD6DB67A6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28E8BB78-9DDE-4591-B1C9-A3FD6DB67A6C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -536,5 +542,6 @@ Global
 		{1EBD08CE-6D19-4B4D-BD92-BAC40DE1D343} = {CADF3F5A-556F-4FFA-BBE4-02F31182E17E}
 		{FB5F4277-30FF-4EE8-80BD-632B4D547EA2} = {CADF3F5A-556F-4FFA-BBE4-02F31182E17E}
 		{22B63EDF-41C9-42AB-8FF3-57CB5F0F12E0} = {CADF3F5A-556F-4FFA-BBE4-02F31182E17E}
+		{28E8BB78-9DDE-4591-B1C9-A3FD6DB67A6C} = {CADF3F5A-556F-4FFA-BBE4-02F31182E17E}
 	EndGlobalSection
 EndGlobal
