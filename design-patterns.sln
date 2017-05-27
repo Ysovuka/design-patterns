@@ -123,6 +123,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.Base.RecordS
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.Base.Registry", "src\Enterprise Patterns\Base Patterns\c-sharp\DesignPatterns.Base.Registry\DesignPatterns.Base.Registry.csproj", "{CE60EE94-E735-41EA-8186-5895E36C9134}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.Base.SeparatedInterface", "src\Enterprise Patterns\Base Patterns\c-sharp\DesignPatterns.Base.SeparatedInterface\DesignPatterns.Base.SeparatedInterface.csproj", "{660E644E-B052-4D94-A34B-73EAA7DEDEC0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -249,6 +251,10 @@ Global
 		{CE60EE94-E735-41EA-8186-5895E36C9134}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CE60EE94-E735-41EA-8186-5895E36C9134}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CE60EE94-E735-41EA-8186-5895E36C9134}.Release|Any CPU.Build.0 = Release|Any CPU
+		{660E644E-B052-4D94-A34B-73EAA7DEDEC0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{660E644E-B052-4D94-A34B-73EAA7DEDEC0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{660E644E-B052-4D94-A34B-73EAA7DEDEC0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{660E644E-B052-4D94-A34B-73EAA7DEDEC0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -312,5 +318,6 @@ Global
 		{BEB74B44-CFD6-4F07-9160-7B4E94E69AEA} = {BDD0E76B-5FA6-4707-8692-F7519CD8FFCC}
 		{74156905-6470-4663-B6B5-63D7871B00D2} = {BDD0E76B-5FA6-4707-8692-F7519CD8FFCC}
 		{CE60EE94-E735-41EA-8186-5895E36C9134} = {BDD0E76B-5FA6-4707-8692-F7519CD8FFCC}
+		{660E644E-B052-4D94-A34B-73EAA7DEDEC0} = {BDD0E76B-5FA6-4707-8692-F7519CD8FFCC}
 	EndGlobalSection
 EndGlobal
