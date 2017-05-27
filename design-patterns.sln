@@ -109,6 +109,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.Structural.F
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.Structural.Proxy", "src\General Patterns\Structural Patterns\c-sharp\DesignPatterns.Structural.Proxy\DesignPatterns.Structural.Proxy.csproj", "{CFC89A12-E692-41D3-A71F-F583CADD90B0}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.Base.Gateway", "src\Enterprise Patterns\Base Patterns\c-sharp\DesignPatterns.Base.Gateway\DesignPatterns.Base.Gateway.csproj", "{959B55F6-69B1-4F72-984B-E776773C0529}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -207,6 +209,10 @@ Global
 		{CFC89A12-E692-41D3-A71F-F583CADD90B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CFC89A12-E692-41D3-A71F-F583CADD90B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CFC89A12-E692-41D3-A71F-F583CADD90B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{959B55F6-69B1-4F72-984B-E776773C0529}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{959B55F6-69B1-4F72-984B-E776773C0529}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{959B55F6-69B1-4F72-984B-E776773C0529}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{959B55F6-69B1-4F72-984B-E776773C0529}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -263,5 +269,6 @@ Global
 		{E990E140-1DE6-4190-9015-C94AC85C1088} = {C15BF457-9D0D-47C4-8A61-A652D9D68064}
 		{126F1971-CD67-4615-90F4-6A7E7EDAF706} = {C15BF457-9D0D-47C4-8A61-A652D9D68064}
 		{CFC89A12-E692-41D3-A71F-F583CADD90B0} = {C15BF457-9D0D-47C4-8A61-A652D9D68064}
+		{959B55F6-69B1-4F72-984B-E776773C0529} = {BDD0E76B-5FA6-4707-8692-F7519CD8FFCC}
 	EndGlobalSection
 EndGlobal
