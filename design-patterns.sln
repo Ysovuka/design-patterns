@@ -143,6 +143,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.Distribution
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.Distribution.RemoteFacade", "src\Enterprise Patterns\Distribution Patterns\c-sharp\DesignPatterns.Distribution.RemoteFacade\DesignPatterns.Distribution.RemoteFacade.csproj", "{F92EDEDD-C3BC-470F-99F5-E9900E569C50}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.DomainLogic.DomainModel", "src\Enterprise Patterns\Domain Logic Patterns\c-sharp\DesignPatterns.DomainLogic.DomainModel\DesignPatterns.DomainLogic.DomainModel.csproj", "{7623E2D0-60F3-456D-9BCD-EC39236178A9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -309,6 +311,10 @@ Global
 		{F92EDEDD-C3BC-470F-99F5-E9900E569C50}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F92EDEDD-C3BC-470F-99F5-E9900E569C50}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F92EDEDD-C3BC-470F-99F5-E9900E569C50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7623E2D0-60F3-456D-9BCD-EC39236178A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7623E2D0-60F3-456D-9BCD-EC39236178A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7623E2D0-60F3-456D-9BCD-EC39236178A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7623E2D0-60F3-456D-9BCD-EC39236178A9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -382,5 +388,6 @@ Global
 		{62D61DC1-D66F-42C2-A8EF-063C3878EEAD} = {6ACBA3E6-26AC-47FB-B938-315B69C912BB}
 		{052E2C4D-64F0-477B-B49D-FB84C94BF632} = {7F2549A9-4551-43A5-BAE5-EE4F59013155}
 		{F92EDEDD-C3BC-470F-99F5-E9900E569C50} = {7F2549A9-4551-43A5-BAE5-EE4F59013155}
+		{7623E2D0-60F3-456D-9BCD-EC39236178A9} = {D445CD22-86AF-4564-816D-4B238FFC94C9}
 	EndGlobalSection
 EndGlobal
