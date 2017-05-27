@@ -207,6 +207,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.WebPresentat
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.WebPresentation.TwoStepView", "src\Enterprise Patterns\Web Presentation Patterns\c-sharp\DesignPatterns.WebPresentation.TwoStepView\DesignPatterns.WebPresentation.TwoStepView.csproj", "{835D8108-3E81-4297-A8D2-DA34BA84D73C}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.WebPresetation.ApplicationController", "src\Enterprise Patterns\Web Presentation Patterns\c-sharp\DesignPatterns.WebPresetation.ApplicationController\DesignPatterns.WebPresetation.ApplicationController.csproj", "{8D9BE7EA-244B-440D-8D56-300AC0A0580E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -501,6 +503,10 @@ Global
 		{835D8108-3E81-4297-A8D2-DA34BA84D73C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{835D8108-3E81-4297-A8D2-DA34BA84D73C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{835D8108-3E81-4297-A8D2-DA34BA84D73C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D9BE7EA-244B-440D-8D56-300AC0A0580E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D9BE7EA-244B-440D-8D56-300AC0A0580E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D9BE7EA-244B-440D-8D56-300AC0A0580E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D9BE7EA-244B-440D-8D56-300AC0A0580E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -606,5 +612,6 @@ Global
 		{EEABDCAB-6383-4E74-ABC7-4337BD765083} = {F1D52D01-6FFC-4135-AC95-11C275E08A93}
 		{4072991D-A52E-421B-AE1E-BD41C978FBCF} = {F1D52D01-6FFC-4135-AC95-11C275E08A93}
 		{835D8108-3E81-4297-A8D2-DA34BA84D73C} = {F1D52D01-6FFC-4135-AC95-11C275E08A93}
+		{8D9BE7EA-244B-440D-8D56-300AC0A0580E} = {F1D52D01-6FFC-4135-AC95-11C275E08A93}
 	EndGlobalSection
 EndGlobal
