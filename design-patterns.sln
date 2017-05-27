@@ -201,6 +201,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.WebPresentat
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.WebPresentation.PageController", "src\Enterprise Patterns\Web Presentation Patterns\c-sharp\DesignPatterns.WebPresentation.PageController\DesignPatterns.WebPresentation.PageController.csproj", "{39595C8B-FAF1-4464-A7B0-D1E34928D41A}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.WebPresentation.TemplateView", "src\Enterprise Patterns\Web Presentation Patterns\c-sharp\DesignPatterns.WebPresentation.TemplateView\DesignPatterns.WebPresentation.TemplateView.csproj", "{EEABDCAB-6383-4E74-ABC7-4337BD765083}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -483,6 +485,10 @@ Global
 		{39595C8B-FAF1-4464-A7B0-D1E34928D41A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{39595C8B-FAF1-4464-A7B0-D1E34928D41A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{39595C8B-FAF1-4464-A7B0-D1E34928D41A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EEABDCAB-6383-4E74-ABC7-4337BD765083}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EEABDCAB-6383-4E74-ABC7-4337BD765083}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EEABDCAB-6383-4E74-ABC7-4337BD765083}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EEABDCAB-6383-4E74-ABC7-4337BD765083}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -585,5 +591,6 @@ Global
 		{5324C78A-4212-4220-8384-FA7B4F938135} = {F1D52D01-6FFC-4135-AC95-11C275E08A93}
 		{B62AB16F-DB6E-4F6A-B223-154AC6C66BF4} = {F1D52D01-6FFC-4135-AC95-11C275E08A93}
 		{39595C8B-FAF1-4464-A7B0-D1E34928D41A} = {F1D52D01-6FFC-4135-AC95-11C275E08A93}
+		{EEABDCAB-6383-4E74-ABC7-4337BD765083} = {F1D52D01-6FFC-4135-AC95-11C275E08A93}
 	EndGlobalSection
 EndGlobal
