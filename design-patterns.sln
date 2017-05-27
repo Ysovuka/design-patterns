@@ -197,6 +197,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.SessionState
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.WebPresentation.FrontController", "src\Enterprise Patterns\Web Presentation Patterns\c-sharp\DesignPatterns.WebPresentation.FrontController\DesignPatterns.WebPresentation.FrontController.csproj", "{5324C78A-4212-4220-8384-FA7B4F938135}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.WebPresentation.ModelViewController", "src\Enterprise Patterns\Web Presentation Patterns\c-sharp\DesignPatterns.WebPresentation.ModelViewController\DesignPatterns.WebPresentation.ModelViewController.csproj", "{B62AB16F-DB6E-4F6A-B223-154AC6C66BF4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -471,6 +473,10 @@ Global
 		{5324C78A-4212-4220-8384-FA7B4F938135}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5324C78A-4212-4220-8384-FA7B4F938135}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5324C78A-4212-4220-8384-FA7B4F938135}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B62AB16F-DB6E-4F6A-B223-154AC6C66BF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B62AB16F-DB6E-4F6A-B223-154AC6C66BF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B62AB16F-DB6E-4F6A-B223-154AC6C66BF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B62AB16F-DB6E-4F6A-B223-154AC6C66BF4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -571,5 +577,6 @@ Global
 		{0943C028-E8ED-47E8-A1C8-BDDBBAE101BE} = {C1BB7A4C-B536-4F44-9C25-B571C3CC6D42}
 		{6342610F-F4C7-498E-9613-AE631C45BA4F} = {C1BB7A4C-B536-4F44-9C25-B571C3CC6D42}
 		{5324C78A-4212-4220-8384-FA7B4F938135} = {F1D52D01-6FFC-4135-AC95-11C275E08A93}
+		{B62AB16F-DB6E-4F6A-B223-154AC6C66BF4} = {F1D52D01-6FFC-4135-AC95-11C275E08A93}
 	EndGlobalSection
 EndGlobal
