@@ -111,6 +111,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.Structural.P
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.Base.Gateway", "src\Enterprise Patterns\Base Patterns\c-sharp\DesignPatterns.Base.Gateway\DesignPatterns.Base.Gateway.csproj", "{959B55F6-69B1-4F72-984B-E776773C0529}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.Base.LayerSupertype", "src\Enterprise Patterns\Base Patterns\c-sharp\DesignPatterns.Base.LayerSupertype\DesignPatterns.Base.LayerSupertype.csproj", "{433C2E23-4EE3-4F53-AE54-E70FBB071B24}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -213,6 +215,10 @@ Global
 		{959B55F6-69B1-4F72-984B-E776773C0529}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{959B55F6-69B1-4F72-984B-E776773C0529}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{959B55F6-69B1-4F72-984B-E776773C0529}.Release|Any CPU.Build.0 = Release|Any CPU
+		{433C2E23-4EE3-4F53-AE54-E70FBB071B24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{433C2E23-4EE3-4F53-AE54-E70FBB071B24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{433C2E23-4EE3-4F53-AE54-E70FBB071B24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{433C2E23-4EE3-4F53-AE54-E70FBB071B24}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -270,5 +276,6 @@ Global
 		{126F1971-CD67-4615-90F4-6A7E7EDAF706} = {C15BF457-9D0D-47C4-8A61-A652D9D68064}
 		{CFC89A12-E692-41D3-A71F-F583CADD90B0} = {C15BF457-9D0D-47C4-8A61-A652D9D68064}
 		{959B55F6-69B1-4F72-984B-E776773C0529} = {BDD0E76B-5FA6-4707-8692-F7519CD8FFCC}
+		{433C2E23-4EE3-4F53-AE54-E70FBB071B24} = {BDD0E76B-5FA6-4707-8692-F7519CD8FFCC}
 	EndGlobalSection
 EndGlobal
