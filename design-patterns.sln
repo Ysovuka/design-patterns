@@ -139,6 +139,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.DataSourceAr
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.DataSourceArchitectural.TableDataGateway", "src\Enterprise Patterns\Data Source Architectural Patterns\c-sharp\DesignPatterns.DataSourceArchitectural.TableDataGateway\DesignPatterns.DataSourceArchitectural.TableDataGateway.csproj", "{62D61DC1-D66F-42C2-A8EF-063C3878EEAD}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.Distribution.DataTransferObject", "src\Enterprise Patterns\Distribution Patterns\DesignPatterns.Distribution.DataTransferObject\DesignPatterns.Distribution.DataTransferObject.csproj", "{CC0A1B53-2B10-4251-A12B-8BE4F4B2132C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -297,6 +299,10 @@ Global
 		{62D61DC1-D66F-42C2-A8EF-063C3878EEAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{62D61DC1-D66F-42C2-A8EF-063C3878EEAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{62D61DC1-D66F-42C2-A8EF-063C3878EEAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC0A1B53-2B10-4251-A12B-8BE4F4B2132C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC0A1B53-2B10-4251-A12B-8BE4F4B2132C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC0A1B53-2B10-4251-A12B-8BE4F4B2132C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC0A1B53-2B10-4251-A12B-8BE4F4B2132C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -368,5 +374,6 @@ Global
 		{69255F40-7470-40DD-84A9-2B823E8D9EF8} = {6ACBA3E6-26AC-47FB-B938-315B69C912BB}
 		{1BD8E952-3E87-4170-A728-33D6535A194F} = {6ACBA3E6-26AC-47FB-B938-315B69C912BB}
 		{62D61DC1-D66F-42C2-A8EF-063C3878EEAD} = {6ACBA3E6-26AC-47FB-B938-315B69C912BB}
+		{CC0A1B53-2B10-4251-A12B-8BE4F4B2132C} = {7F2549A9-4551-43A5-BAE5-EE4F59013155}
 	EndGlobalSection
 EndGlobal
