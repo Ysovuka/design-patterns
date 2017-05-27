@@ -139,9 +139,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.DataSourceAr
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.DataSourceArchitectural.TableDataGateway", "src\Enterprise Patterns\Data Source Architectural Patterns\c-sharp\DesignPatterns.DataSourceArchitectural.TableDataGateway\DesignPatterns.DataSourceArchitectural.TableDataGateway.csproj", "{62D61DC1-D66F-42C2-A8EF-063C3878EEAD}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.Distribution.DataTransferObject", "src\Enterprise Patterns\Distribution Patterns\DesignPatterns.Distribution.DataTransferObject\DesignPatterns.Distribution.DataTransferObject.csproj", "{CC0A1B53-2B10-4251-A12B-8BE4F4B2132C}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.Distribution.RemoteFacade", "src\Enterprise Patterns\Distribution Patterns\DesignPatterns.Distribution.RemoteFacade\DesignPatterns.Distribution.RemoteFacade.csproj", "{A507FBA7-17E6-4BF5-BD00-1FD41DE7A0FC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.DomainLogic.DomainModel", "src\Enterprise Patterns\Domain Logic Patterns\c-sharp\DesignPatterns.DomainLogic.DomainModel\DesignPatterns.DomainLogic.DomainModel.csproj", "{090952EE-441A-4050-AE93-42024266A6AD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.Distribution.DataTransferObject", "src\Enterprise Patterns\Distribution Patterns\c-sharp\DesignPatterns.Distribution.DataTransferObject\DesignPatterns.Distribution.DataTransferObject.csproj", "{052E2C4D-64F0-477B-B49D-FB84C94BF632}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -301,14 +303,18 @@ Global
 		{62D61DC1-D66F-42C2-A8EF-063C3878EEAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{62D61DC1-D66F-42C2-A8EF-063C3878EEAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{62D61DC1-D66F-42C2-A8EF-063C3878EEAD}.Release|Any CPU.Build.0 = Release|Any CPU
-		{CC0A1B53-2B10-4251-A12B-8BE4F4B2132C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CC0A1B53-2B10-4251-A12B-8BE4F4B2132C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CC0A1B53-2B10-4251-A12B-8BE4F4B2132C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CC0A1B53-2B10-4251-A12B-8BE4F4B2132C}.Release|Any CPU.Build.0 = Release|Any CPU
 		{A507FBA7-17E6-4BF5-BD00-1FD41DE7A0FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{A507FBA7-17E6-4BF5-BD00-1FD41DE7A0FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A507FBA7-17E6-4BF5-BD00-1FD41DE7A0FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A507FBA7-17E6-4BF5-BD00-1FD41DE7A0FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{090952EE-441A-4050-AE93-42024266A6AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{090952EE-441A-4050-AE93-42024266A6AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{090952EE-441A-4050-AE93-42024266A6AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{090952EE-441A-4050-AE93-42024266A6AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{052E2C4D-64F0-477B-B49D-FB84C94BF632}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{052E2C4D-64F0-477B-B49D-FB84C94BF632}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{052E2C4D-64F0-477B-B49D-FB84C94BF632}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{052E2C4D-64F0-477B-B49D-FB84C94BF632}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -380,7 +386,8 @@ Global
 		{69255F40-7470-40DD-84A9-2B823E8D9EF8} = {6ACBA3E6-26AC-47FB-B938-315B69C912BB}
 		{1BD8E952-3E87-4170-A728-33D6535A194F} = {6ACBA3E6-26AC-47FB-B938-315B69C912BB}
 		{62D61DC1-D66F-42C2-A8EF-063C3878EEAD} = {6ACBA3E6-26AC-47FB-B938-315B69C912BB}
-		{CC0A1B53-2B10-4251-A12B-8BE4F4B2132C} = {7F2549A9-4551-43A5-BAE5-EE4F59013155}
 		{A507FBA7-17E6-4BF5-BD00-1FD41DE7A0FC} = {7F2549A9-4551-43A5-BAE5-EE4F59013155}
+		{090952EE-441A-4050-AE93-42024266A6AD} = {D445CD22-86AF-4564-816D-4B238FFC94C9}
+		{052E2C4D-64F0-477B-B49D-FB84C94BF632} = {7F2549A9-4551-43A5-BAE5-EE4F59013155}
 	EndGlobalSection
 EndGlobal
