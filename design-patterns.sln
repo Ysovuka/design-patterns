@@ -161,6 +161,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.ObjectRelati
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.ObjectRelationalMetadataMapping.QueryObject", "src\Enterprise Patterns\Object-Relational Metadata Mapping Patterns\c-sharp\DesignPatterns.ObjectRelationalMetadataMapping.QueryObject\DesignPatterns.ObjectRelationalMetadataMapping.QueryObject.csproj", "{A3EEDBC7-65EB-412F-8A53-7646E1264772}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.ObjectRelationalMetadataMapping.Repository", "src\Enterprise Patterns\Object-Relational Metadata Mapping Patterns\c-sharp\DesignPatterns.ObjectRelationalMetadataMapping.Repository\DesignPatterns.ObjectRelationalMetadataMapping.Repository.csproj", "{FE16C1C8-0755-464B-9F7D-AAF5B74F5EDA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -363,6 +365,10 @@ Global
 		{A3EEDBC7-65EB-412F-8A53-7646E1264772}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A3EEDBC7-65EB-412F-8A53-7646E1264772}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A3EEDBC7-65EB-412F-8A53-7646E1264772}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE16C1C8-0755-464B-9F7D-AAF5B74F5EDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE16C1C8-0755-464B-9F7D-AAF5B74F5EDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE16C1C8-0755-464B-9F7D-AAF5B74F5EDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE16C1C8-0755-464B-9F7D-AAF5B74F5EDA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -445,5 +451,6 @@ Global
 		{8EBAC4F8-0B75-4B30-82F5-E806FB2BB4AC} = {555F7B1C-4A08-4364-8C0C-048867D447FD}
 		{556C8171-3712-4EC4-8142-9EA24F5726C7} = {34FD41AE-6CCE-4949-AACB-AD23C2617705}
 		{A3EEDBC7-65EB-412F-8A53-7646E1264772} = {34FD41AE-6CCE-4949-AACB-AD23C2617705}
+		{FE16C1C8-0755-464B-9F7D-AAF5B74F5EDA} = {34FD41AE-6CCE-4949-AACB-AD23C2617705}
 	EndGlobalSection
 EndGlobal
