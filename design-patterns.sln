@@ -195,6 +195,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.SessionState
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.SessionState.ServerSessionState", "src\Enterprise Patterns\Session State Patterns\c-sharp\DesignPatterns.SessionState.ServerSessionState\DesignPatterns.SessionState.ServerSessionState.csproj", "{6342610F-F4C7-498E-9613-AE631C45BA4F}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.WebPresentation.FrontController", "src\Enterprise Patterns\Web Presentation Patterns\c-sharp\DesignPatterns.WebPresentation.FrontController\DesignPatterns.WebPresentation.FrontController.csproj", "{5324C78A-4212-4220-8384-FA7B4F938135}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -465,6 +467,10 @@ Global
 		{6342610F-F4C7-498E-9613-AE631C45BA4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6342610F-F4C7-498E-9613-AE631C45BA4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6342610F-F4C7-498E-9613-AE631C45BA4F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5324C78A-4212-4220-8384-FA7B4F938135}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5324C78A-4212-4220-8384-FA7B4F938135}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5324C78A-4212-4220-8384-FA7B4F938135}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5324C78A-4212-4220-8384-FA7B4F938135}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -564,5 +570,6 @@ Global
 		{022D0511-576A-423F-9BFD-0F3D2507506A} = {C1BB7A4C-B536-4F44-9C25-B571C3CC6D42}
 		{0943C028-E8ED-47E8-A1C8-BDDBBAE101BE} = {C1BB7A4C-B536-4F44-9C25-B571C3CC6D42}
 		{6342610F-F4C7-498E-9613-AE631C45BA4F} = {C1BB7A4C-B536-4F44-9C25-B571C3CC6D42}
+		{5324C78A-4212-4220-8384-FA7B4F938135} = {F1D52D01-6FFC-4135-AC95-11C275E08A93}
 	EndGlobalSection
 EndGlobal
