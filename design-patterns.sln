@@ -177,6 +177,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.ObjectRelati
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.ObjectRelationalStructural.InheritanceMappers", "src\Enterprise Patterns\Object-Relational Structural Patterns\c-sharp\DesignPatterns.ObjectRelationalStructural.InheritanceMappers\DesignPatterns.ObjectRelationalStructural.InheritanceMappers.csproj", "{D94C77C1-4EB5-4AC3-B94F-C5AEE81801D3}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.ObjectRelationalStructural.SerializedLOB", "src\Enterprise Patterns\Object-Relational Structural Patterns\c-sharp\DesignPatterns.ObjectRelationalStructural.SerializedLOB\DesignPatterns.ObjectRelationalStructural.SerializedLOB.csproj", "{9668D094-9B23-403B-ACA3-E826E239A572}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -411,6 +413,10 @@ Global
 		{D94C77C1-4EB5-4AC3-B94F-C5AEE81801D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D94C77C1-4EB5-4AC3-B94F-C5AEE81801D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D94C77C1-4EB5-4AC3-B94F-C5AEE81801D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9668D094-9B23-403B-ACA3-E826E239A572}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9668D094-9B23-403B-ACA3-E826E239A572}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9668D094-9B23-403B-ACA3-E826E239A572}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9668D094-9B23-403B-ACA3-E826E239A572}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -501,5 +507,6 @@ Global
 		{DB715DC0-5201-4C14-B4AE-E0AE612D72F9} = {8FAB84F7-3289-4D6A-8A28-F3B7FA59C1D5}
 		{D4030043-9310-4D37-819E-34A52A4AF323} = {8FAB84F7-3289-4D6A-8A28-F3B7FA59C1D5}
 		{D94C77C1-4EB5-4AC3-B94F-C5AEE81801D3} = {8FAB84F7-3289-4D6A-8A28-F3B7FA59C1D5}
+		{9668D094-9B23-403B-ACA3-E826E239A572} = {8FAB84F7-3289-4D6A-8A28-F3B7FA59C1D5}
 	EndGlobalSection
 EndGlobal
