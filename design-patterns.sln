@@ -259,6 +259,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "c-sharp", "c-sharp", "{25DF
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.DependencyInjection.ConstructorInjection", "src\Dependency Injection Patterns\c-sharp\ConstructorInjection\DesignPatterns.DependencyInjection.ConstructorInjection.csproj", "{74435C62-7DC3-492D-9720-A310009AF8DA}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.DependencyInjection.PropertyInjection", "src\Dependency Injection Patterns\c-sharp\PropertyInjection\DesignPatterns.DependencyInjection.PropertyInjection.csproj", "{0B7B985C-4204-4F5F-840B-717A024139AA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -613,6 +615,10 @@ Global
 		{74435C62-7DC3-492D-9720-A310009AF8DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{74435C62-7DC3-492D-9720-A310009AF8DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{74435C62-7DC3-492D-9720-A310009AF8DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B7B985C-4204-4F5F-840B-717A024139AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B7B985C-4204-4F5F-840B-717A024139AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B7B985C-4204-4F5F-840B-717A024139AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B7B985C-4204-4F5F-840B-717A024139AA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -744,5 +750,6 @@ Global
 		{65056255-4896-4186-A5B4-FF8AE00ABD67} = {CD0C7813-CB2A-48ED-A6F5-16193899D345}
 		{25DF952B-5372-441A-B78C-121D6E75E162} = {65056255-4896-4186-A5B4-FF8AE00ABD67}
 		{74435C62-7DC3-492D-9720-A310009AF8DA} = {25DF952B-5372-441A-B78C-121D6E75E162}
+		{0B7B985C-4204-4F5F-840B-717A024139AA} = {25DF952B-5372-441A-B78C-121D6E75E162}
 	EndGlobalSection
 EndGlobal
