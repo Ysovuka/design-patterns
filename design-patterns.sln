@@ -241,6 +241,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.Decoupling.E
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.Decoupling.ServiceLocator", "src\Game Patterns\Decoupling Patterns\c-sharp\ServiceLocator\DesignPatterns.Decoupling.ServiceLocator.csproj", "{02F102D1-62D9-4F9C-A636-C766276A5764}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Optimization Patterns", "Optimization Patterns", "{F8A14636-FA7B-425A-8524-B570B521DD7C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "c-sharp", "c-sharp", "{2D2AF5B4-D8E9-4A29-9986-DACA5D274208}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.Optimization.DataLocality", "src\Game Patterns\Optimization Patterns\c-sharp\DataLocality\DesignPatterns.Optimization.DataLocality.csproj", "{0B510ED7-BC48-4638-A04F-768EA07ED429}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -575,6 +581,10 @@ Global
 		{02F102D1-62D9-4F9C-A636-C766276A5764}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{02F102D1-62D9-4F9C-A636-C766276A5764}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{02F102D1-62D9-4F9C-A636-C766276A5764}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B510ED7-BC48-4638-A04F-768EA07ED429}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B510ED7-BC48-4638-A04F-768EA07ED429}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B510ED7-BC48-4638-A04F-768EA07ED429}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B510ED7-BC48-4638-A04F-768EA07ED429}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -697,5 +707,8 @@ Global
 		{6F14CE10-A1DD-4530-A97A-CA71ECF28192} = {DD83DB3E-79DA-430E-BC6C-CA56F038A9D2}
 		{8C453F35-C0AC-45DC-8CA9-C55BAE7848E8} = {DD83DB3E-79DA-430E-BC6C-CA56F038A9D2}
 		{02F102D1-62D9-4F9C-A636-C766276A5764} = {DD83DB3E-79DA-430E-BC6C-CA56F038A9D2}
+		{F8A14636-FA7B-425A-8524-B570B521DD7C} = {06467A07-073B-45FF-A555-4507BC8CEF82}
+		{2D2AF5B4-D8E9-4A29-9986-DACA5D274208} = {F8A14636-FA7B-425A-8524-B570B521DD7C}
+		{0B510ED7-BC48-4638-A04F-768EA07ED429} = {2D2AF5B4-D8E9-4A29-9986-DACA5D274208}
 	EndGlobalSection
 EndGlobal
