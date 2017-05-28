@@ -253,6 +253,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.Optimization
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.Optimization.SpatialPartition", "src\Game Patterns\Optimization Patterns\c-sharp\SpatialPartition\DesignPatterns.Optimization.SpatialPartition.csproj", "{1C36A13D-DF83-4588-AF70-FD9D152E6368}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dependency Injection Patterns", "Dependency Injection Patterns", "{65056255-4896-4186-A5B4-FF8AE00ABD67}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "c-sharp", "c-sharp", "{25DF952B-5372-441A-B78C-121D6E75E162}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.DependencyInjection.ConstructorInjection", "src\Dependency Injection Patterns\c-sharp\ConstructorInjection\DesignPatterns.DependencyInjection.ConstructorInjection.csproj", "{74435C62-7DC3-492D-9720-A310009AF8DA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -603,6 +609,10 @@ Global
 		{1C36A13D-DF83-4588-AF70-FD9D152E6368}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1C36A13D-DF83-4588-AF70-FD9D152E6368}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1C36A13D-DF83-4588-AF70-FD9D152E6368}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74435C62-7DC3-492D-9720-A310009AF8DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74435C62-7DC3-492D-9720-A310009AF8DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74435C62-7DC3-492D-9720-A310009AF8DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74435C62-7DC3-492D-9720-A310009AF8DA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -731,5 +741,8 @@ Global
 		{5EBF31E6-241F-458B-9850-B37988817BD3} = {2D2AF5B4-D8E9-4A29-9986-DACA5D274208}
 		{42D81BEB-EBD2-4B17-8D25-BBF0FEAB2935} = {2D2AF5B4-D8E9-4A29-9986-DACA5D274208}
 		{1C36A13D-DF83-4588-AF70-FD9D152E6368} = {2D2AF5B4-D8E9-4A29-9986-DACA5D274208}
+		{65056255-4896-4186-A5B4-FF8AE00ABD67} = {CD0C7813-CB2A-48ED-A6F5-16193899D345}
+		{25DF952B-5372-441A-B78C-121D6E75E162} = {65056255-4896-4186-A5B4-FF8AE00ABD67}
+		{74435C62-7DC3-492D-9720-A310009AF8DA} = {25DF952B-5372-441A-B78C-121D6E75E162}
 	EndGlobalSection
 EndGlobal
