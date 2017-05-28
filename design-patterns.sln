@@ -277,6 +277,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.AI.Flee", "s
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.AI.Arrive", "src\AI Patterns\Behavioral Patterns\c-sharp\Arrive\DesignPatterns.AI.Arrive.csproj", "{E4A69511-A286-4211-A442-2E3823A1BEF4}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.AI.Pursuit", "src\AI Patterns\Behavioral Patterns\c-sharp\Pursuit\DesignPatterns.AI.Pursuit.csproj", "{60E7A22C-849C-450B-A4F7-D883D1791932}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -655,6 +657,10 @@ Global
 		{E4A69511-A286-4211-A442-2E3823A1BEF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E4A69511-A286-4211-A442-2E3823A1BEF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E4A69511-A286-4211-A442-2E3823A1BEF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60E7A22C-849C-450B-A4F7-D883D1791932}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60E7A22C-849C-450B-A4F7-D883D1791932}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60E7A22C-849C-450B-A4F7-D883D1791932}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60E7A22C-849C-450B-A4F7-D883D1791932}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -795,5 +801,6 @@ Global
 		{F20B0D11-4F68-4D9C-9F6E-C39A739B39A5} = {E8634A65-1A03-485C-9DE7-4688FBCDFE82}
 		{E0DBC2AA-A960-4F14-BF1D-4A75D480B8C2} = {E8634A65-1A03-485C-9DE7-4688FBCDFE82}
 		{E4A69511-A286-4211-A442-2E3823A1BEF4} = {E8634A65-1A03-485C-9DE7-4688FBCDFE82}
+		{60E7A22C-849C-450B-A4F7-D883D1791932} = {E8634A65-1A03-485C-9DE7-4688FBCDFE82}
 	EndGlobalSection
 EndGlobal
