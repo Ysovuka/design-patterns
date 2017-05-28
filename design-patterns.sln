@@ -307,6 +307,14 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.AI.GoalDrive
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.AI.FuzzyLogic", "src\AI Patterns\Behavioral Patterns\c-sharp\FuzzyLogic\DesignPatterns.AI.FuzzyLogic.csproj", "{49AC39A1-F3C5-4164-A24A-6F8BBEC5951D}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "General Patterns", "General Patterns", "{AB9E2B78-568F-43DB-A47A-AB76F7FB6E5F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Creational Patterns", "Creational Patterns", "{8DA589FE-2160-447E-9DF4-94E004C58F69}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "c-sharp", "c-sharp", "{9E59469F-596A-49FB-AD9B-781EE4B41195}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.Creational.AbstractFactory.Tests", "tests\General Patterns\Creational Patterns\c-sharp\AbstractFactory.Tests\DesignPatterns.Creational.AbstractFactory.Tests.csproj", "{282DF7AB-EFFC-4D57-950F-D0A193A66F64}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -745,6 +753,10 @@ Global
 		{49AC39A1-F3C5-4164-A24A-6F8BBEC5951D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{49AC39A1-F3C5-4164-A24A-6F8BBEC5951D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{49AC39A1-F3C5-4164-A24A-6F8BBEC5951D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{282DF7AB-EFFC-4D57-950F-D0A193A66F64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{282DF7AB-EFFC-4D57-950F-D0A193A66F64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{282DF7AB-EFFC-4D57-950F-D0A193A66F64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{282DF7AB-EFFC-4D57-950F-D0A193A66F64}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -900,5 +912,9 @@ Global
 		{69BFDE80-6198-4BD5-88D5-F6AE5BC040B2} = {E8634A65-1A03-485C-9DE7-4688FBCDFE82}
 		{BB28980A-59BC-46A4-9EE9-62B268A12BC2} = {E8634A65-1A03-485C-9DE7-4688FBCDFE82}
 		{49AC39A1-F3C5-4164-A24A-6F8BBEC5951D} = {E8634A65-1A03-485C-9DE7-4688FBCDFE82}
+		{AB9E2B78-568F-43DB-A47A-AB76F7FB6E5F} = {409BA1CF-FDBD-4939-BF30-DB097B329776}
+		{8DA589FE-2160-447E-9DF4-94E004C58F69} = {AB9E2B78-568F-43DB-A47A-AB76F7FB6E5F}
+		{9E59469F-596A-49FB-AD9B-781EE4B41195} = {8DA589FE-2160-447E-9DF4-94E004C58F69}
+		{282DF7AB-EFFC-4D57-950F-D0A193A66F64} = {9E59469F-596A-49FB-AD9B-781EE4B41195}
 	EndGlobalSection
 EndGlobal
