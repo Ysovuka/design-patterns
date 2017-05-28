@@ -273,6 +273,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "c-sharp", "c-sharp", "{E863
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.AI.Seek", "src\AI Patterns\Behavioral Patterns\c-sharp\Seek\DesignPatterns.AI.Seek.csproj", "{F20B0D11-4F68-4D9C-9F6E-C39A739B39A5}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.AI.Flee", "src\AI Patterns\Behavioral Patterns\c-sharp\Flee\DesignPatterns.AI.Flee.csproj", "{E0DBC2AA-A960-4F14-BF1D-4A75D480B8C2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -643,6 +645,10 @@ Global
 		{F20B0D11-4F68-4D9C-9F6E-C39A739B39A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F20B0D11-4F68-4D9C-9F6E-C39A739B39A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F20B0D11-4F68-4D9C-9F6E-C39A739B39A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0DBC2AA-A960-4F14-BF1D-4A75D480B8C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0DBC2AA-A960-4F14-BF1D-4A75D480B8C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0DBC2AA-A960-4F14-BF1D-4A75D480B8C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0DBC2AA-A960-4F14-BF1D-4A75D480B8C2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -781,5 +787,6 @@ Global
 		{6D51BA76-6F4F-4FAD-8C73-7A177168C511} = {088E630C-90B5-4256-9055-95EC80C4B1A6}
 		{E8634A65-1A03-485C-9DE7-4688FBCDFE82} = {6D51BA76-6F4F-4FAD-8C73-7A177168C511}
 		{F20B0D11-4F68-4D9C-9F6E-C39A739B39A5} = {E8634A65-1A03-485C-9DE7-4688FBCDFE82}
+		{E0DBC2AA-A960-4F14-BF1D-4A75D480B8C2} = {E8634A65-1A03-485C-9DE7-4688FBCDFE82}
 	EndGlobalSection
 EndGlobal
