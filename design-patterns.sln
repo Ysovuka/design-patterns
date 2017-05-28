@@ -231,6 +231,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.Behavioral.S
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.Behavioral.TypeObject", "src\Game Patterns\Behavioral Patterns\c-sharp\TypeObject\DesignPatterns.Behavioral.TypeObject.csproj", "{56438641-CDE6-4EE7-ABE1-2BC1C43D03FF}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Decoupling Patterns", "Decoupling Patterns", "{A53BE86B-E6C9-44E9-8A1E-9C0FEF407691}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "c-sharp", "c-sharp", "{DD83DB3E-79DA-430E-BC6C-CA56F038A9D2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.Decoupling.Component", "src\Game Patterns\Decoupling Patterns\c-sharp\Component\DesignPatterns.Decoupling.Component.csproj", "{6F14CE10-A1DD-4530-A97A-CA71ECF28192}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -553,6 +559,10 @@ Global
 		{56438641-CDE6-4EE7-ABE1-2BC1C43D03FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{56438641-CDE6-4EE7-ABE1-2BC1C43D03FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{56438641-CDE6-4EE7-ABE1-2BC1C43D03FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F14CE10-A1DD-4530-A97A-CA71ECF28192}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F14CE10-A1DD-4530-A97A-CA71ECF28192}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F14CE10-A1DD-4530-A97A-CA71ECF28192}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F14CE10-A1DD-4530-A97A-CA71ECF28192}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -670,5 +680,8 @@ Global
 		{18885727-C646-4DB1-8C0C-DAF0DA86DE54} = {15C8D808-6FB3-4373-83DB-83889456C75A}
 		{25F1F1D2-80A4-4477-B3D8-EF27ABFD904F} = {15C8D808-6FB3-4373-83DB-83889456C75A}
 		{56438641-CDE6-4EE7-ABE1-2BC1C43D03FF} = {15C8D808-6FB3-4373-83DB-83889456C75A}
+		{A53BE86B-E6C9-44E9-8A1E-9C0FEF407691} = {06467A07-073B-45FF-A555-4507BC8CEF82}
+		{DD83DB3E-79DA-430E-BC6C-CA56F038A9D2} = {A53BE86B-E6C9-44E9-8A1E-9C0FEF407691}
+		{6F14CE10-A1DD-4530-A97A-CA71ECF28192} = {DD83DB3E-79DA-430E-BC6C-CA56F038A9D2}
 	EndGlobalSection
 EndGlobal
