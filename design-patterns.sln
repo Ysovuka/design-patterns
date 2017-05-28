@@ -289,6 +289,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.AI.WallAvoid
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.AI.Interpose", "src\AI Patterns\Behavioral Patterns\c-sharp\Interpose\DesignPatterns.AI.Interpose.csproj", "{EBA1A104-3FC8-4F82-82D5-421E710A7153}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.AI.Hide", "src\AI Patterns\Behavioral Patterns\c-sharp\Hide\DesignPatterns.AI.Hide.csproj", "{2E1BD054-D9DC-441B-A4ED-FC1CA74C470C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -691,6 +693,10 @@ Global
 		{EBA1A104-3FC8-4F82-82D5-421E710A7153}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EBA1A104-3FC8-4F82-82D5-421E710A7153}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EBA1A104-3FC8-4F82-82D5-421E710A7153}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E1BD054-D9DC-441B-A4ED-FC1CA74C470C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E1BD054-D9DC-441B-A4ED-FC1CA74C470C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E1BD054-D9DC-441B-A4ED-FC1CA74C470C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E1BD054-D9DC-441B-A4ED-FC1CA74C470C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -837,5 +843,6 @@ Global
 		{3C46DD85-32AF-48C1-AD0E-AC29CF0A287C} = {E8634A65-1A03-485C-9DE7-4688FBCDFE82}
 		{B82FFC8A-BDB5-45F1-9A3F-DC3E1485F3D0} = {E8634A65-1A03-485C-9DE7-4688FBCDFE82}
 		{EBA1A104-3FC8-4F82-82D5-421E710A7153} = {E8634A65-1A03-485C-9DE7-4688FBCDFE82}
+		{2E1BD054-D9DC-441B-A4ED-FC1CA74C470C} = {E8634A65-1A03-485C-9DE7-4688FBCDFE82}
 	EndGlobalSection
 EndGlobal
