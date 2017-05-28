@@ -285,6 +285,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.AI.Wander", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.AI.ObstacleAvoidance", "src\AI Patterns\Behavioral Patterns\c-sharp\ObstacleAvoidance\DesignPatterns.AI.ObstacleAvoidance.csproj", "{3C46DD85-32AF-48C1-AD0E-AC29CF0A287C}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.AI.WallAvoidance", "src\AI Patterns\Behavioral Patterns\c-sharp\WallAvoidance\DesignPatterns.AI.WallAvoidance.csproj", "{B82FFC8A-BDB5-45F1-9A3F-DC3E1485F3D0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -679,6 +681,10 @@ Global
 		{3C46DD85-32AF-48C1-AD0E-AC29CF0A287C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3C46DD85-32AF-48C1-AD0E-AC29CF0A287C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3C46DD85-32AF-48C1-AD0E-AC29CF0A287C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B82FFC8A-BDB5-45F1-9A3F-DC3E1485F3D0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B82FFC8A-BDB5-45F1-9A3F-DC3E1485F3D0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B82FFC8A-BDB5-45F1-9A3F-DC3E1485F3D0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B82FFC8A-BDB5-45F1-9A3F-DC3E1485F3D0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -823,5 +829,6 @@ Global
 		{53FCC21C-F99F-474D-AE00-C4CA93B0EF39} = {E8634A65-1A03-485C-9DE7-4688FBCDFE82}
 		{D3D83F74-520A-41D7-8AF2-BA839F82A4CF} = {E8634A65-1A03-485C-9DE7-4688FBCDFE82}
 		{3C46DD85-32AF-48C1-AD0E-AC29CF0A287C} = {E8634A65-1A03-485C-9DE7-4688FBCDFE82}
+		{B82FFC8A-BDB5-45F1-9A3F-DC3E1485F3D0} = {E8634A65-1A03-485C-9DE7-4688FBCDFE82}
 	EndGlobalSection
 EndGlobal
