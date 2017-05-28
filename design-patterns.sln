@@ -263,6 +263,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.DependencyIn
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.DependencyInjection.MethodInjection", "src\Dependency Injection Patterns\c-sharp\MethodInjection\DesignPatterns.DependencyInjection.MethodInjection.csproj", "{A9A28029-991B-4A5C-8B5A-37E61AF22F91}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.DependencyInjection.AmbientContext", "src\Dependency Injection Patterns\c-sharp\AmbientContext\DesignPatterns.DependencyInjection.AmbientContext.csproj", "{0A59C033-5293-4595-8EB7-F49906F4EBB1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -625,6 +627,10 @@ Global
 		{A9A28029-991B-4A5C-8B5A-37E61AF22F91}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A9A28029-991B-4A5C-8B5A-37E61AF22F91}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A9A28029-991B-4A5C-8B5A-37E61AF22F91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A59C033-5293-4595-8EB7-F49906F4EBB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A59C033-5293-4595-8EB7-F49906F4EBB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A59C033-5293-4595-8EB7-F49906F4EBB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A59C033-5293-4595-8EB7-F49906F4EBB1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -758,5 +764,6 @@ Global
 		{74435C62-7DC3-492D-9720-A310009AF8DA} = {25DF952B-5372-441A-B78C-121D6E75E162}
 		{0B7B985C-4204-4F5F-840B-717A024139AA} = {25DF952B-5372-441A-B78C-121D6E75E162}
 		{A9A28029-991B-4A5C-8B5A-37E61AF22F91} = {25DF952B-5372-441A-B78C-121D6E75E162}
+		{0A59C033-5293-4595-8EB7-F49906F4EBB1} = {25DF952B-5372-441A-B78C-121D6E75E162}
 	EndGlobalSection
 EndGlobal
