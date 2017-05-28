@@ -247,6 +247,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "c-sharp", "c-sharp", "{2D2A
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.Optimization.DataLocality", "src\Game Patterns\Optimization Patterns\c-sharp\DataLocality\DesignPatterns.Optimization.DataLocality.csproj", "{0B510ED7-BC48-4638-A04F-768EA07ED429}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.Optimization.DirtyFlag", "src\Game Patterns\Optimization Patterns\c-sharp\DirtyFlag\DesignPatterns.Optimization.DirtyFlag.csproj", "{5EBF31E6-241F-458B-9850-B37988817BD3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -585,6 +587,10 @@ Global
 		{0B510ED7-BC48-4638-A04F-768EA07ED429}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0B510ED7-BC48-4638-A04F-768EA07ED429}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0B510ED7-BC48-4638-A04F-768EA07ED429}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5EBF31E6-241F-458B-9850-B37988817BD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5EBF31E6-241F-458B-9850-B37988817BD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5EBF31E6-241F-458B-9850-B37988817BD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5EBF31E6-241F-458B-9850-B37988817BD3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -710,5 +716,6 @@ Global
 		{F8A14636-FA7B-425A-8524-B570B521DD7C} = {06467A07-073B-45FF-A555-4507BC8CEF82}
 		{2D2AF5B4-D8E9-4A29-9986-DACA5D274208} = {F8A14636-FA7B-425A-8524-B570B521DD7C}
 		{0B510ED7-BC48-4638-A04F-768EA07ED429} = {2D2AF5B4-D8E9-4A29-9986-DACA5D274208}
+		{5EBF31E6-241F-458B-9850-B37988817BD3} = {2D2AF5B4-D8E9-4A29-9986-DACA5D274208}
 	EndGlobalSection
 EndGlobal
