@@ -221,6 +221,12 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.Sequencing.G
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.Sequencing.UpdateMethod", "src\Game Patterns\Sequencing Patterns\c-sharp\UpdateMethod\DesignPatterns.Sequencing.UpdateMethod.csproj", "{26CABB08-044D-4B7B-A193-2D82B5D53C18}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Behavioral Patterns", "Behavioral Patterns", "{4DA78CF7-B0C4-4F81-B107-34465F20DDE2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "c-sharp", "c-sharp", "{15C8D808-6FB3-4373-83DB-83889456C75A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.Behavioral.Bytecode", "src\Game Patterns\Behavioral Patterns\c-sharp\Bytecode\DesignPatterns.Behavioral.Bytecode.csproj", "{18885727-C646-4DB1-8C0C-DAF0DA86DE54}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -531,6 +537,10 @@ Global
 		{26CABB08-044D-4B7B-A193-2D82B5D53C18}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{26CABB08-044D-4B7B-A193-2D82B5D53C18}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{26CABB08-044D-4B7B-A193-2D82B5D53C18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18885727-C646-4DB1-8C0C-DAF0DA86DE54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18885727-C646-4DB1-8C0C-DAF0DA86DE54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18885727-C646-4DB1-8C0C-DAF0DA86DE54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18885727-C646-4DB1-8C0C-DAF0DA86DE54}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -643,5 +653,8 @@ Global
 		{E8FF2C55-C96F-4A95-9D98-E0CA75051F22} = {F690BA73-0CF7-4D58-8BA5-1F001746FB74}
 		{10DA972F-0D8F-4FE4-A911-7350248AE946} = {F690BA73-0CF7-4D58-8BA5-1F001746FB74}
 		{26CABB08-044D-4B7B-A193-2D82B5D53C18} = {F690BA73-0CF7-4D58-8BA5-1F001746FB74}
+		{4DA78CF7-B0C4-4F81-B107-34465F20DDE2} = {06467A07-073B-45FF-A555-4507BC8CEF82}
+		{15C8D808-6FB3-4373-83DB-83889456C75A} = {4DA78CF7-B0C4-4F81-B107-34465F20DDE2}
+		{18885727-C646-4DB1-8C0C-DAF0DA86DE54} = {15C8D808-6FB3-4373-83DB-83889456C75A}
 	EndGlobalSection
 EndGlobal
