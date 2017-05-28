@@ -209,6 +209,14 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.Structural.P
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.ObjectRelationalStructural.ConcreteTableInheritance", "src\Enterprise Patterns\Object-Relational Structural Patterns\c-sharp\ConcreteTableInheritance\DesignPatterns.ObjectRelationalStructural.ConcreteTableInheritance.csproj", "{3EDB4335-C8CC-4732-B05A-988004D1E26C}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Game Patterns", "Game Patterns", "{06467A07-073B-45FF-A555-4507BC8CEF82}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sequencing Patterns", "Sequencing Patterns", "{538ACDFE-3EF8-4DD2-BD07-4B307A25A999}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "c-sharp", "c-sharp", "{F690BA73-0CF7-4D58-8BA5-1F001746FB74}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.Sequencing.DoubleBuffer", "src\Game Patterns\Sequencing Patterns\c-sharp\DoubleBuffer\DesignPatterns.Sequencing.DoubleBuffer.csproj", "{E8FF2C55-C96F-4A95-9D98-E0CA75051F22}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -507,6 +515,10 @@ Global
 		{3EDB4335-C8CC-4732-B05A-988004D1E26C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3EDB4335-C8CC-4732-B05A-988004D1E26C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3EDB4335-C8CC-4732-B05A-988004D1E26C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8FF2C55-C96F-4A95-9D98-E0CA75051F22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8FF2C55-C96F-4A95-9D98-E0CA75051F22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8FF2C55-C96F-4A95-9D98-E0CA75051F22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8FF2C55-C96F-4A95-9D98-E0CA75051F22}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -613,5 +625,9 @@ Global
 		{D2AA302D-4485-42D4-809B-1E72B3205DD4} = {C15BF457-9D0D-47C4-8A61-A652D9D68064}
 		{CC690286-77E5-40F1-989C-AC259B3CA111} = {C15BF457-9D0D-47C4-8A61-A652D9D68064}
 		{3EDB4335-C8CC-4732-B05A-988004D1E26C} = {8FAB84F7-3289-4D6A-8A28-F3B7FA59C1D5}
+		{06467A07-073B-45FF-A555-4507BC8CEF82} = {CD0C7813-CB2A-48ED-A6F5-16193899D345}
+		{538ACDFE-3EF8-4DD2-BD07-4B307A25A999} = {06467A07-073B-45FF-A555-4507BC8CEF82}
+		{F690BA73-0CF7-4D58-8BA5-1F001746FB74} = {538ACDFE-3EF8-4DD2-BD07-4B307A25A999}
+		{E8FF2C55-C96F-4A95-9D98-E0CA75051F22} = {F690BA73-0CF7-4D58-8BA5-1F001746FB74}
 	EndGlobalSection
 EndGlobal
