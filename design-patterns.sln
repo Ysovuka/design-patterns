@@ -293,6 +293,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.AI.Hide", "s
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.AI.PathFollowing", "src\AI Patterns\Behavioral Patterns\c-sharp\PathFollowing\DesignPatterns.AI.PathFollowing.csproj", "{A6500851-313F-4B8F-8C7D-053009A4E05E}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.AI.OffsetPursuit", "src\AI Patterns\Behavioral Patterns\c-sharp\OffsetPursuit\DesignPatterns.AI.OffsetPursuit.csproj", "{A8E4E93A-3C0A-4B55-A21F-60C28DC782E0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -703,6 +705,10 @@ Global
 		{A6500851-313F-4B8F-8C7D-053009A4E05E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A6500851-313F-4B8F-8C7D-053009A4E05E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A6500851-313F-4B8F-8C7D-053009A4E05E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8E4E93A-3C0A-4B55-A21F-60C28DC782E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8E4E93A-3C0A-4B55-A21F-60C28DC782E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8E4E93A-3C0A-4B55-A21F-60C28DC782E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8E4E93A-3C0A-4B55-A21F-60C28DC782E0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -851,5 +857,6 @@ Global
 		{EBA1A104-3FC8-4F82-82D5-421E710A7153} = {E8634A65-1A03-485C-9DE7-4688FBCDFE82}
 		{2E1BD054-D9DC-441B-A4ED-FC1CA74C470C} = {E8634A65-1A03-485C-9DE7-4688FBCDFE82}
 		{A6500851-313F-4B8F-8C7D-053009A4E05E} = {E8634A65-1A03-485C-9DE7-4688FBCDFE82}
+		{A8E4E93A-3C0A-4B55-A21F-60C28DC782E0} = {E8634A65-1A03-485C-9DE7-4688FBCDFE82}
 	EndGlobalSection
 EndGlobal
