@@ -15,6 +15,16 @@ namespace DesignPatterns.Common.Creational.Maze
 
         public IDictionary<Direction, IMazeObject> Sides { get; } = new Dictionary<Direction, IMazeObject>();
 
-        public void SetSide(Direction direction, IMazeObject obj) => Sides.Add(direction, obj);
+        public void SetSide(Direction direction, IMazeObject obj)
+        {
+            if (!Sides.ContainsKey(direction))
+            {
+                Sides.Add(direction, obj);
+            }
+            else
+            {
+                Sides[direction] = obj;
+            }
+        }
     }
 }

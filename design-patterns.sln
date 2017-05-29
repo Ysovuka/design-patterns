@@ -323,6 +323,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "c-sharp", "c-sharp", "{E64C
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.Common.Creational.Maze", "src\Common\Creational\c-sharp\Maze\DesignPatterns.Common.Creational.Maze.csproj", "{10C3478B-B475-479B-8CF7-31BD7977ABA5}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.Creational.Builder.Tests", "tests\General Patterns\Creational Patterns\c-sharp\Builder.Tests\DesignPatterns.Creational.Builder.Tests.csproj", "{BF82BF80-AE23-4FA6-A11B-CA1803612D3D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -769,6 +771,10 @@ Global
 		{10C3478B-B475-479B-8CF7-31BD7977ABA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{10C3478B-B475-479B-8CF7-31BD7977ABA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{10C3478B-B475-479B-8CF7-31BD7977ABA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF82BF80-AE23-4FA6-A11B-CA1803612D3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF82BF80-AE23-4FA6-A11B-CA1803612D3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF82BF80-AE23-4FA6-A11B-CA1803612D3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF82BF80-AE23-4FA6-A11B-CA1803612D3D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -932,5 +938,6 @@ Global
 		{0AB9E254-9BF6-4A50-B994-C6608FEE535A} = {3DF5BDDC-B02C-4652-8C0B-EEB5FE8A1770}
 		{E64C1493-B765-4DB7-B2CC-11D944EA3A12} = {0AB9E254-9BF6-4A50-B994-C6608FEE535A}
 		{10C3478B-B475-479B-8CF7-31BD7977ABA5} = {E64C1493-B765-4DB7-B2CC-11D944EA3A12}
+		{BF82BF80-AE23-4FA6-A11B-CA1803612D3D} = {9E59469F-596A-49FB-AD9B-781EE4B41195}
 	EndGlobalSection
 EndGlobal
