@@ -329,6 +329,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.Creational.F
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.Creational.Prototype.Tests", "tests\General Patterns\Creational Patterns\c-sharp\Prototype.Tests\DesignPatterns.Creational.Prototype.Tests.csproj", "{38D03B7F-7D58-49EB-9139-0ED7BC0810F3}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.Creational.Singleton.Tests", "tests\General Patterns\Creational Patterns\c-sharp\Singleton.Tests\DesignPatterns.Creational.Singleton.Tests.csproj", "{10457522-26CA-4AEB-B84B-91BA924781F6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -787,6 +789,10 @@ Global
 		{38D03B7F-7D58-49EB-9139-0ED7BC0810F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{38D03B7F-7D58-49EB-9139-0ED7BC0810F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{38D03B7F-7D58-49EB-9139-0ED7BC0810F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{10457522-26CA-4AEB-B84B-91BA924781F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{10457522-26CA-4AEB-B84B-91BA924781F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{10457522-26CA-4AEB-B84B-91BA924781F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{10457522-26CA-4AEB-B84B-91BA924781F6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -953,5 +959,6 @@ Global
 		{BF82BF80-AE23-4FA6-A11B-CA1803612D3D} = {9E59469F-596A-49FB-AD9B-781EE4B41195}
 		{4878529B-BA1A-4F82-9D04-01D8CF7B200F} = {9E59469F-596A-49FB-AD9B-781EE4B41195}
 		{38D03B7F-7D58-49EB-9139-0ED7BC0810F3} = {9E59469F-596A-49FB-AD9B-781EE4B41195}
+		{10457522-26CA-4AEB-B84B-91BA924781F6} = {9E59469F-596A-49FB-AD9B-781EE4B41195}
 	EndGlobalSection
 EndGlobal
