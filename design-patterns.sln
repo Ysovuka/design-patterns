@@ -347,6 +347,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.Structural.F
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.Behavioral.Strategy.Tests", "tests\General Patterns\Behavioral Patterns\c-sharp\Strategy.Tests\DesignPatterns.Behavioral.Strategy.Tests.csproj", "{F7E87281-F100-40EF-A1C8-0E29441E57D6}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.Behavioral.Command.Tests", "tests\General Patterns\Behavioral Patterns\c-sharp\Command.Tests\DesignPatterns.Behavioral.Command.Tests.csproj", "{CBC85F6E-170E-4CBF-9990-2256E7CBFA4A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -825,6 +827,10 @@ Global
 		{F7E87281-F100-40EF-A1C8-0E29441E57D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F7E87281-F100-40EF-A1C8-0E29441E57D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F7E87281-F100-40EF-A1C8-0E29441E57D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBC85F6E-170E-4CBF-9990-2256E7CBFA4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBC85F6E-170E-4CBF-9990-2256E7CBFA4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBC85F6E-170E-4CBF-9990-2256E7CBFA4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBC85F6E-170E-4CBF-9990-2256E7CBFA4A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1000,5 +1006,6 @@ Global
 		{08B2898A-9E7E-413D-8B73-D4826FC5E107} = {028AE524-2994-45DC-BF38-67ED8BD13921}
 		{7C158B8A-3B91-4AA2-BF8F-FD5BF2944775} = {08B2898A-9E7E-413D-8B73-D4826FC5E107}
 		{F7E87281-F100-40EF-A1C8-0E29441E57D6} = {D6D6EA36-48DA-493D-B132-9D01420283C2}
+		{CBC85F6E-170E-4CBF-9990-2256E7CBFA4A} = {D6D6EA36-48DA-493D-B132-9D01420283C2}
 	EndGlobalSection
 EndGlobal
