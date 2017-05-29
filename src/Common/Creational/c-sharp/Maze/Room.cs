@@ -6,14 +6,21 @@ namespace DesignPatterns.Common.Creational.Maze
 {
     public class Room : IMazeObject
     {
+        public Room() { }
+
         public Room(int id)
         {
             Id = id;
         }
 
+        public Room(Room room)
+        {
+            Sides = room.Sides;
+        }
+
         public int Id { get; private set; }
 
-        public IDictionary<Direction, IMazeObject> Sides { get; } = new Dictionary<Direction, IMazeObject>();
+        public IDictionary<Direction, IMazeObject> Sides { get; protected set; } = new Dictionary<Direction, IMazeObject>();
 
         public void SetSide(Direction direction, IMazeObject obj)
         {
@@ -26,5 +33,8 @@ namespace DesignPatterns.Common.Creational.Maze
                 Sides[direction] = obj;
             }
         }
+
+        public virtual Room Clone() => new Room(this);
+        public void Initialize(int id) => Id = id;
     }
 }
