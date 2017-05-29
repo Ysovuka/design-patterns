@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace DesignPatterns.Creational.AbstractFactory
+namespace DesignPatterns.Common.Creational.Maze
 {
     public class Maze
     {
