@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26430.6
+VisualStudioVersion = 15.0.26430.13
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{CD0C7813-CB2A-48ED-A6F5-16193899D345}"
 EndProject
@@ -350,6 +350,8 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.Behavioral.Command.Tests", "tests\General Patterns\Behavioral Patterns\c-sharp\Command.Tests\DesignPatterns.Behavioral.Command.Tests.csproj", "{CBC85F6E-170E-4CBF-9990-2256E7CBFA4A}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.Behavioral.Memento.Tests", "tests\General Patterns\Behavioral Patterns\c-sharp\Memento.Tests\DesignPatterns.Behavioral.Memento.Tests.csproj", "{3910E0AC-57D6-4380-8896-84FAA91B01BF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.Structural.Adapter.Tests", "tests\General Patterns\Structural Patterns\c-sharp\Adapter.Tests\DesignPatterns.Structural.Adapter.Tests.csproj", "{D62D438C-55E7-4F11-BF62-6C74BD7C3B5C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -837,6 +839,10 @@ Global
 		{3910E0AC-57D6-4380-8896-84FAA91B01BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3910E0AC-57D6-4380-8896-84FAA91B01BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3910E0AC-57D6-4380-8896-84FAA91B01BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D62D438C-55E7-4F11-BF62-6C74BD7C3B5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D62D438C-55E7-4F11-BF62-6C74BD7C3B5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D62D438C-55E7-4F11-BF62-6C74BD7C3B5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D62D438C-55E7-4F11-BF62-6C74BD7C3B5C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1014,5 +1020,6 @@ Global
 		{F7E87281-F100-40EF-A1C8-0E29441E57D6} = {D6D6EA36-48DA-493D-B132-9D01420283C2}
 		{CBC85F6E-170E-4CBF-9990-2256E7CBFA4A} = {D6D6EA36-48DA-493D-B132-9D01420283C2}
 		{3910E0AC-57D6-4380-8896-84FAA91B01BF} = {D6D6EA36-48DA-493D-B132-9D01420283C2}
+		{D62D438C-55E7-4F11-BF62-6C74BD7C3B5C} = {08B2898A-9E7E-413D-8B73-D4826FC5E107}
 	EndGlobalSection
 EndGlobal
