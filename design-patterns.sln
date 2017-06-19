@@ -355,6 +355,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.Structural.A
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.Structural.Bridge.Tests", "tests\General Patterns\Structural Patterns\c-sharp\Bridge.Tests\DesignPatterns.Structural.Bridge.Tests.csproj", "{182D5FC0-867C-4A6B-BE34-791A66BFE2EB}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.Structural.Composite.Tests", "tests\General Patterns\Structural Patterns\c-sharp\Composite.Tests\DesignPatterns.Structural.Composite.Tests.csproj", "{46815641-214F-4282-B46F-CEE922848862}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -849,6 +851,10 @@ Global
 		{182D5FC0-867C-4A6B-BE34-791A66BFE2EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{182D5FC0-867C-4A6B-BE34-791A66BFE2EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{182D5FC0-867C-4A6B-BE34-791A66BFE2EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46815641-214F-4282-B46F-CEE922848862}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46815641-214F-4282-B46F-CEE922848862}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46815641-214F-4282-B46F-CEE922848862}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46815641-214F-4282-B46F-CEE922848862}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1028,5 +1034,6 @@ Global
 		{3910E0AC-57D6-4380-8896-84FAA91B01BF} = {D6D6EA36-48DA-493D-B132-9D01420283C2}
 		{D62D438C-55E7-4F11-BF62-6C74BD7C3B5C} = {08B2898A-9E7E-413D-8B73-D4826FC5E107}
 		{182D5FC0-867C-4A6B-BE34-791A66BFE2EB} = {08B2898A-9E7E-413D-8B73-D4826FC5E107}
+		{46815641-214F-4282-B46F-CEE922848862} = {08B2898A-9E7E-413D-8B73-D4826FC5E107}
 	EndGlobalSection
 EndGlobal
