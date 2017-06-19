@@ -357,6 +357,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.Structural.B
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.Structural.Composite.Tests", "tests\General Patterns\Structural Patterns\c-sharp\Composite.Tests\DesignPatterns.Structural.Composite.Tests.csproj", "{46815641-214F-4282-B46F-CEE922848862}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.Structural.Facade.Tests", "tests\General Patterns\Structural Patterns\c-sharp\Facade.Tests\DesignPatterns.Structural.Facade.Tests.csproj", "{DA89EF27-0FA3-47AD-9816-5220D1EF8606}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -855,6 +857,10 @@ Global
 		{46815641-214F-4282-B46F-CEE922848862}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{46815641-214F-4282-B46F-CEE922848862}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{46815641-214F-4282-B46F-CEE922848862}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA89EF27-0FA3-47AD-9816-5220D1EF8606}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA89EF27-0FA3-47AD-9816-5220D1EF8606}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA89EF27-0FA3-47AD-9816-5220D1EF8606}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA89EF27-0FA3-47AD-9816-5220D1EF8606}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -1035,5 +1041,6 @@ Global
 		{D62D438C-55E7-4F11-BF62-6C74BD7C3B5C} = {08B2898A-9E7E-413D-8B73-D4826FC5E107}
 		{182D5FC0-867C-4A6B-BE34-791A66BFE2EB} = {08B2898A-9E7E-413D-8B73-D4826FC5E107}
 		{46815641-214F-4282-B46F-CEE922848862} = {08B2898A-9E7E-413D-8B73-D4826FC5E107}
+		{DA89EF27-0FA3-47AD-9816-5220D1EF8606} = {08B2898A-9E7E-413D-8B73-D4826FC5E107}
 	EndGlobalSection
 EndGlobal
