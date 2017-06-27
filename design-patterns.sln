@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26430.13
+VisualStudioVersion = 15.0.26430.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{CD0C7813-CB2A-48ED-A6F5-16193899D345}"
 EndProject
@@ -180,8 +180,6 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.Behavioral.Strategy", "src\General Patterns\Behavioral Patterns\c-sharp\Strategy\DesignPatterns.Behavioral.Strategy.csproj", "{5EB6F88D-06F6-469D-BF67-DD1DB0D2A68E}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.Behavioral.TemplateMethod", "src\General Patterns\Behavioral Patterns\c-sharp\TemplateMethod\DesignPatterns.Behavioral.TemplateMethod.csproj", "{05402459-B42D-423C-8D0F-0BF9C573332A}"
-EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.Behavioral.Visitor", "src\General Patterns\Behavioral Patterns\c-sharp\Visitor\DesignPatterns.Behavioral.Visitor.csproj", "{CC8B96C1-2C06-4956-9EE6-5F236503ED31}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.Creational.AbstractFactory", "src\General Patterns\Creational Patterns\c-sharp\AbstractFactory\DesignPatterns.Creational.AbstractFactory.csproj", "{B7D5C961-13F2-468D-B5C7-972B305C8582}"
 EndProject
@@ -362,6 +360,10 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.Structural.Proxy.Tests", "tests\General Patterns\Structural Patterns\c-sharp\Proxy.Tests\DesignPatterns.Structural.Proxy.Tests.csproj", "{C4B76299-AB74-4261-A1FC-14DA499133B4}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.Behavioral.Visitor.Tests", "tests\General Patterns\Behavioral Patterns\c-sharp\Visitor.Tests\DesignPatterns.Behavioral.Visitor.Tests.csproj", "{C3C5DD73-A6C0-4627-B804-86ABF657FA00}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DesignPatterns", "src\DesignPatterns\DesignPatterns.csproj", "{CFBC2315-A91F-4F4C-977E-290E2094A66C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.Behavioral.Visitor", "src\General Patterns\Behavioral Patterns\c-sharp\Visitor\DesignPatterns.Behavioral.Visitor.csproj", "{2F3DA758-8A0D-4E4E-B2A2-F01E71056D92}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -605,10 +607,6 @@ Global
 		{05402459-B42D-423C-8D0F-0BF9C573332A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{05402459-B42D-423C-8D0F-0BF9C573332A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{05402459-B42D-423C-8D0F-0BF9C573332A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{CC8B96C1-2C06-4956-9EE6-5F236503ED31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CC8B96C1-2C06-4956-9EE6-5F236503ED31}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CC8B96C1-2C06-4956-9EE6-5F236503ED31}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CC8B96C1-2C06-4956-9EE6-5F236503ED31}.Release|Any CPU.Build.0 = Release|Any CPU
 		{B7D5C961-13F2-468D-B5C7-972B305C8582}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B7D5C961-13F2-468D-B5C7-972B305C8582}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B7D5C961-13F2-468D-B5C7-972B305C8582}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -873,6 +871,14 @@ Global
 		{C3C5DD73-A6C0-4627-B804-86ABF657FA00}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C3C5DD73-A6C0-4627-B804-86ABF657FA00}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C3C5DD73-A6C0-4627-B804-86ABF657FA00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFBC2315-A91F-4F4C-977E-290E2094A66C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFBC2315-A91F-4F4C-977E-290E2094A66C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFBC2315-A91F-4F4C-977E-290E2094A66C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFBC2315-A91F-4F4C-977E-290E2094A66C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F3DA758-8A0D-4E4E-B2A2-F01E71056D92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F3DA758-8A0D-4E4E-B2A2-F01E71056D92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F3DA758-8A0D-4E4E-B2A2-F01E71056D92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F3DA758-8A0D-4E4E-B2A2-F01E71056D92}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -965,7 +971,6 @@ Global
 		{DA5EFCF8-421D-4838-9F91-F7DFDCD45FAC} = {919207B8-6057-448A-B36E-08551A3335D3}
 		{5EB6F88D-06F6-469D-BF67-DD1DB0D2A68E} = {919207B8-6057-448A-B36E-08551A3335D3}
 		{05402459-B42D-423C-8D0F-0BF9C573332A} = {919207B8-6057-448A-B36E-08551A3335D3}
-		{CC8B96C1-2C06-4956-9EE6-5F236503ED31} = {919207B8-6057-448A-B36E-08551A3335D3}
 		{B7D5C961-13F2-468D-B5C7-972B305C8582} = {0E42D1CA-BB16-4788-863C-A85B0027040D}
 		{CFAE4668-4AFA-48B5-86DA-E2E1AAB92BF3} = {0E42D1CA-BB16-4788-863C-A85B0027040D}
 		{9A3DDF31-ACE0-4C5E-9859-0232380F22BA} = {0E42D1CA-BB16-4788-863C-A85B0027040D}
@@ -1056,5 +1061,7 @@ Global
 		{DA89EF27-0FA3-47AD-9816-5220D1EF8606} = {08B2898A-9E7E-413D-8B73-D4826FC5E107}
 		{C4B76299-AB74-4261-A1FC-14DA499133B4} = {08B2898A-9E7E-413D-8B73-D4826FC5E107}
 		{C3C5DD73-A6C0-4627-B804-86ABF657FA00} = {D6D6EA36-48DA-493D-B132-9D01420283C2}
+		{CFBC2315-A91F-4F4C-977E-290E2094A66C} = {CD0C7813-CB2A-48ED-A6F5-16193899D345}
+		{2F3DA758-8A0D-4E4E-B2A2-F01E71056D92} = {919207B8-6057-448A-B36E-08551A3335D3}
 	EndGlobalSection
 EndGlobal
