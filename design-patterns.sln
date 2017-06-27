@@ -171,8 +171,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.Behavioral.M
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.Behavioral.TemplateMethod", "src\General Patterns\Behavioral Patterns\c-sharp\TemplateMethod\DesignPatterns.Behavioral.TemplateMethod.csproj", "{05402459-B42D-423C-8D0F-0BF9C573332A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.Creational.Builder", "src\General Patterns\Creational Patterns\c-sharp\Builder\DesignPatterns.Creational.Builder.csproj", "{CFAE4668-4AFA-48B5-86DA-E2E1AAB92BF3}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.Creational.FactoryMethod", "src\General Patterns\Creational Patterns\c-sharp\FactoryMethod\DesignPatterns.Creational.FactoryMethod.csproj", "{9A3DDF31-ACE0-4C5E-9859-0232380F22BA}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.Creational.Prototype", "src\General Patterns\Creational Patterns\c-sharp\Prototype\DesignPatterns.Creational.Prototype.csproj", "{BE7504E3-C16E-4930-AAEA-66FB1B572F48}"
@@ -573,10 +571,6 @@ Global
 		{05402459-B42D-423C-8D0F-0BF9C573332A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{05402459-B42D-423C-8D0F-0BF9C573332A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{05402459-B42D-423C-8D0F-0BF9C573332A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{CFAE4668-4AFA-48B5-86DA-E2E1AAB92BF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CFAE4668-4AFA-48B5-86DA-E2E1AAB92BF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CFAE4668-4AFA-48B5-86DA-E2E1AAB92BF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CFAE4668-4AFA-48B5-86DA-E2E1AAB92BF3}.Release|Any CPU.Build.0 = Release|Any CPU
 		{9A3DDF31-ACE0-4C5E-9859-0232380F22BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{9A3DDF31-ACE0-4C5E-9859-0232380F22BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9A3DDF31-ACE0-4C5E-9859-0232380F22BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -924,7 +918,6 @@ Global
 		{DDDA86B2-7527-4113-AC81-FB939AD658CD} = {919207B8-6057-448A-B36E-08551A3335D3}
 		{AB93F2A7-A473-4E0B-A68C-EE2549544E6C} = {919207B8-6057-448A-B36E-08551A3335D3}
 		{05402459-B42D-423C-8D0F-0BF9C573332A} = {919207B8-6057-448A-B36E-08551A3335D3}
-		{CFAE4668-4AFA-48B5-86DA-E2E1AAB92BF3} = {0E42D1CA-BB16-4788-863C-A85B0027040D}
 		{9A3DDF31-ACE0-4C5E-9859-0232380F22BA} = {0E42D1CA-BB16-4788-863C-A85B0027040D}
 		{BE7504E3-C16E-4930-AAEA-66FB1B572F48} = {0E42D1CA-BB16-4788-863C-A85B0027040D}
 		{AE99CE35-A3C3-41BA-8EC6-62B030542F7E} = {0E42D1CA-BB16-4788-863C-A85B0027040D}
