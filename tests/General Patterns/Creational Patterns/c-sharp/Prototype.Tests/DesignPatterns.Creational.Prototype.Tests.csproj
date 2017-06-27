@@ -11,7 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\..\..\..\src\General Patterns\Creational Patterns\c-sharp\Prototype\DesignPatterns.Creational.Prototype.csproj" />
+    <ProjectReference Include="..\..\..\..\..\src\DesignPatterns\DesignPatterns.csproj" />
   </ItemGroup>
 
   <ItemGroup>
