@@ -169,8 +169,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.Behavioral.T
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.Structural.Decorator", "src\General Patterns\Structural Patterns\c-sharp\Decorator\DesignPatterns.Structural.Decorator.csproj", "{40893D19-A3D4-422D-A0EE-7B78D4FA9BA2}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.Structural.Flyweight", "src\General Patterns\Structural Patterns\c-sharp\Flyweight\DesignPatterns.Structural.Flyweight.csproj", "{D2AA302D-4485-42D4-809B-1E72B3205DD4}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.Structural.Proxy", "src\General Patterns\Structural Patterns\c-sharp\Proxy\DesignPatterns.Structural.Proxy.csproj", "{CC690286-77E5-40F1-989C-AC259B3CA111}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.ObjectRelationalStructural.ConcreteTableInheritance", "src\Enterprise Patterns\Object-Relational Structural Patterns\c-sharp\ConcreteTableInheritance\DesignPatterns.ObjectRelationalStructural.ConcreteTableInheritance.csproj", "{3EDB4335-C8CC-4732-B05A-988004D1E26C}"
@@ -557,10 +555,6 @@ Global
 		{40893D19-A3D4-422D-A0EE-7B78D4FA9BA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{40893D19-A3D4-422D-A0EE-7B78D4FA9BA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{40893D19-A3D4-422D-A0EE-7B78D4FA9BA2}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D2AA302D-4485-42D4-809B-1E72B3205DD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D2AA302D-4485-42D4-809B-1E72B3205DD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D2AA302D-4485-42D4-809B-1E72B3205DD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D2AA302D-4485-42D4-809B-1E72B3205DD4}.Release|Any CPU.Build.0 = Release|Any CPU
 		{CC690286-77E5-40F1-989C-AC259B3CA111}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{CC690286-77E5-40F1-989C-AC259B3CA111}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CC690286-77E5-40F1-989C-AC259B3CA111}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -871,7 +865,6 @@ Global
 		{AB93F2A7-A473-4E0B-A68C-EE2549544E6C} = {919207B8-6057-448A-B36E-08551A3335D3}
 		{05402459-B42D-423C-8D0F-0BF9C573332A} = {919207B8-6057-448A-B36E-08551A3335D3}
 		{40893D19-A3D4-422D-A0EE-7B78D4FA9BA2} = {C15BF457-9D0D-47C4-8A61-A652D9D68064}
-		{D2AA302D-4485-42D4-809B-1E72B3205DD4} = {C15BF457-9D0D-47C4-8A61-A652D9D68064}
 		{CC690286-77E5-40F1-989C-AC259B3CA111} = {C15BF457-9D0D-47C4-8A61-A652D9D68064}
 		{3EDB4335-C8CC-4732-B05A-988004D1E26C} = {8FAB84F7-3289-4D6A-8A28-F3B7FA59C1D5}
 		{06467A07-073B-45FF-A555-4507BC8CEF82} = {CD0C7813-CB2A-48ED-A6F5-16193899D345}
