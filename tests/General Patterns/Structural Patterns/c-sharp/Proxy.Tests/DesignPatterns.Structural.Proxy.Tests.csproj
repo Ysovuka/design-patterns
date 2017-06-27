@@ -11,7 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\..\..\..\src\General Patterns\Structural Patterns\c-sharp\Proxy\DesignPatterns.Structural.Proxy.csproj" />
+    <ProjectReference Include="..\..\..\..\..\src\DesignPatterns\DesignPatterns.csproj" />
   </ItemGroup>
 
   <ItemGroup>
