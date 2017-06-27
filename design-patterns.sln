@@ -169,8 +169,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.Behavioral.I
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.Behavioral.Mediator", "src\General Patterns\Behavioral Patterns\c-sharp\Mediator\DesignPatterns.Behavioral.Mediator.csproj", "{AB93F2A7-A473-4E0B-A68C-EE2549544E6C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.Behavioral.Observer", "src\General Patterns\Behavioral Patterns\c-sharp\Observer\DesignPatterns.Behavioral.Observer.csproj", "{B0A0563B-57F9-40A9-AC0D-4C49E4B3FD28}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.Behavioral.State", "src\General Patterns\Behavioral Patterns\c-sharp\State\DesignPatterns.Behavioral.State.csproj", "{DA5EFCF8-421D-4838-9F91-F7DFDCD45FAC}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DesignPatterns.Behavioral.Strategy", "src\General Patterns\Behavioral Patterns\c-sharp\Strategy\DesignPatterns.Behavioral.Strategy.csproj", "{5EB6F88D-06F6-469D-BF67-DD1DB0D2A68E}"
@@ -579,10 +577,6 @@ Global
 		{AB93F2A7-A473-4E0B-A68C-EE2549544E6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AB93F2A7-A473-4E0B-A68C-EE2549544E6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AB93F2A7-A473-4E0B-A68C-EE2549544E6C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B0A0563B-57F9-40A9-AC0D-4C49E4B3FD28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B0A0563B-57F9-40A9-AC0D-4C49E4B3FD28}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B0A0563B-57F9-40A9-AC0D-4C49E4B3FD28}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B0A0563B-57F9-40A9-AC0D-4C49E4B3FD28}.Release|Any CPU.Build.0 = Release|Any CPU
 		{DA5EFCF8-421D-4838-9F91-F7DFDCD45FAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{DA5EFCF8-421D-4838-9F91-F7DFDCD45FAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DA5EFCF8-421D-4838-9F91-F7DFDCD45FAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -953,7 +947,6 @@ Global
 		{AA318AF3-4EA7-4AD9-BFE6-130744DA9DE8} = {919207B8-6057-448A-B36E-08551A3335D3}
 		{DDDA86B2-7527-4113-AC81-FB939AD658CD} = {919207B8-6057-448A-B36E-08551A3335D3}
 		{AB93F2A7-A473-4E0B-A68C-EE2549544E6C} = {919207B8-6057-448A-B36E-08551A3335D3}
-		{B0A0563B-57F9-40A9-AC0D-4C49E4B3FD28} = {919207B8-6057-448A-B36E-08551A3335D3}
 		{DA5EFCF8-421D-4838-9F91-F7DFDCD45FAC} = {919207B8-6057-448A-B36E-08551A3335D3}
 		{5EB6F88D-06F6-469D-BF67-DD1DB0D2A68E} = {919207B8-6057-448A-B36E-08551A3335D3}
 		{05402459-B42D-423C-8D0F-0BF9C573332A} = {919207B8-6057-448A-B36E-08551A3335D3}
